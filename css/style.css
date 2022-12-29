@@ -1,0 +1,49 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #222;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+h1, h2, h3{
+    color: #000;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+h1{
+    font-size: 5.653rem;
+}
+
+h2{
+    font-size: 3.998rem;
+}
+
+h3{
+    font-size: 2.827rem;
+}
+
+img{
+    width: 100%;
+}
+
+ol li {
+    margin-bottom: 2rem;
+}
+
+.lead {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
