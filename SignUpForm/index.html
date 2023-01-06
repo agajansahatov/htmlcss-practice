@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"
+    content="IE=edge" />
+    <meta name="viewport" 
+    content="width=device-width,initial-scale=1.0"/>
+    <title>Sign Up</title>
+    <link rel="stylesheet" 
+    href="css/normalize.css" />
+    <link rel="stylesheet" 
+    href="css/style.css" />
+  </head>
+  <body>
+    <form action=""method="POST"class="form-signup">
+      <h1>Please Sign Up</h1>
+      <div class="form-group">
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Name"
+          minlength="2"
+          maxlength="100"
+          required
+          autofocus
+        />
+      </div>
+      <div class="form-group">
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Phone or Email"
+          minlength="5"
+          maxlength="255"
+          required
+        />
+      </div>
+      <div class="form-group text-left">
+        <a href="#">Send code</a>
+        <input
+          class="form-control"
+          type="number"
+          placeholder="Verification Code"
+          min="6"
+          max="6"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <p>--- or ---</p>
+        <a href="#">Create a Strong Password</a>
+      </div>
+      <div class="form-group">
+        <button class="btn">Sign Up</button>
+        <p class="muted">Copyright &copy; 2023</p>
+      </div>
+    </form>
+  </body>
+</html>
